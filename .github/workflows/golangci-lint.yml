@@ -5,8 +5,8 @@ on:
     paths:
       - '**/*.go'
       - '.github/workflows/golangci-lint.yml'
-#  schedule:
-#    - cron: '*/55 * * * 1-5'
+  schedule:
+    - cron: '*/55 * * * 1-5'
 
 permissions:
   contents: read
